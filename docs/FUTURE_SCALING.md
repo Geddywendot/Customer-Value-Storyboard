@@ -1,4 +1,12 @@
-# Future Scaling Plan: Integrating Real-World Data
+# Customer Value Storyboard
+
+## Project Overview
+
+The Customer Value Storyboard is an interactive dashboard for exploring customer value and retention in a hypothetical Kenyan e-commerce business. It generates synthetic transaction data, groups customers into actionable segments using RFM (Recency, Frequency, Monetary) analysis and K-Means clustering, and presents the results through a narrative of business metrics and visualizations.
+
+**Tools used:** Python, Streamlit, Pandas, NumPy, scikit-learn, and Plotly Express.
+
+## Future Scaling Plan: Integrating Real-World Data
 
 Because the application has been built with a modular architecture, adapting it to handle real-world data and scale to millions of records is a straightforward process. The current architecture separates data generation, machine learning, and UI rendering into distinct modules.
 
